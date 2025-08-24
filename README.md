@@ -20,6 +20,7 @@ make
 ```
 使用
 ```shell
+cd build
 ./pcd_header_extractor ../data/test.pcd
 ```
 
