@@ -9,3 +9,17 @@
 
 因此，此代码，用来获取部分二进制点云文件的头部信息，如下所示：
 ![Alt text](imgs/image-1.png)
+
+# 如何使用
+
+编译
+```shell
+mkdir build && cd build
+cmake ..
+make
+```
+使用
+```shell
+./pcd_header_extractor ../data/test.pcd
+```
+

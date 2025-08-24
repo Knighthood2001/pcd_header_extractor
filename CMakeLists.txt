@@ -18,13 +18,13 @@ target_link_libraries(pcd_header_static ${PCL_LIBRARIES})
 
 
 # 添加测试程序
-add_executable(main src/main.cpp src/pcd_header.cpp)
+add_executable(pcd_header_extractor src/main.cpp src/pcd_header.cpp)
 # 链接静态库和PCL库
-target_link_libraries(main
+target_link_libraries(pcd_header_extractor
     ${PCL_LIBRARIES}
 )
 
 
-# 安装库和头文件（可选）
-install(TARGETS pcd_header_static DESTINATION lib)
-install(DIRECTORY include/ DESTINATION include)
+# # 安装库和头文件（可选）
+# install(TARGETS pcd_header_static DESTINATION lib)
+# install(DIRECTORY include/ DESTINATION include)
